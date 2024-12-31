@@ -1,10 +1,7 @@
 
 // https://www.youtube.com/watch?v=l-hh51ncgDI
 // Rotations 
-
 // dubs
-
-//visualize
 
 
 function minmax(board, depth, alpha, beta, isMaximizingPlayer, hMap) {
@@ -70,6 +67,5 @@ function bestMove(boards) {
     }
     moveScores.push(moveVal);
 }
-console.log(hMap);
   return [move, bestVal,moveScores];  
 }
