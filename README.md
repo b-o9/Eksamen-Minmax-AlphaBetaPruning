@@ -1,5 +1,5 @@
 [GITHUB REPOSITORY](https://github.com/b-o9/Eksamen-Minmax-AlphaBetaPruning)
-[Deployed link](https://github.com/b-o9/Eksamen-Minmax-AlphaBetaPruning)
+[Deployed link](https://b-o9.github.io/Eksamen-Minmax-AlphaBetaPruning/)
 
 ![Play](image.png)
 
