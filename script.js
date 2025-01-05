@@ -71,6 +71,8 @@ function updateBoard(cells) {
 
 
 function mousePressed() {
+    clicked = false;
+
     if (gameOver) return;
 
     let row = floor(mouseY / 133);  
@@ -164,9 +166,7 @@ function drawTextNext() {
     });
 }
 
-function mousePressed() {
-    clicked = false;
-}
+
 
 function makeTree() {
     hMap.entries().forEach(([boardsNext, value]) => {
