@@ -14,7 +14,6 @@ class Bitboard {
             this.bitboardO &= ~(1 << position); 
         }
     }
-    
 
     checkWinner() {
         const winningCombinations = [
@@ -60,5 +59,4 @@ class Bitboard {
         newBoard.bitboardO = this.bitboardO;
         return newBoard;
     }
-    
 }
